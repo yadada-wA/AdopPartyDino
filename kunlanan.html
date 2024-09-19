@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Triceratops</title>
     <link rel="stylesheet" href="component.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="out/tailwind.css" />
   </head>
   <body>
     <a href="index.html">
@@ -17,26 +17,31 @@
       </div>
     </a>
     <br />
-    <img
-      src="assets/kunlanan.png"
-      alt=""
-      class="animate-fade-up animate-delay-[20ms]"
-      width="490"
-      height="442"
-      loading="lazy"
-    />
-    <br />
-    <div class="grid grid-cols-3 gap-10 justify-center p-2">
-      <div class="box animate-fade-right animate-once animate-delay-[20ms]">
-        <img src="assets/IMGsmall/kunlananLeft.png" alt="" />
-      </div>
-      <div class="box animate-fade-right animate-once animate-delay-[20ms]">
-        <img src="assets/IMGsmall/kunlananCenter.png" alt="" />
-      </div>
-      <div class="box animate-fade-right animate-once animate-delay-[20ms]">
-        <img src="assets/IMGsmall/kunlananRight.png" alt="" />
+    <div class="flex  flex-col w-full  justify-center items-center">
+      
+      <img
+        src="assets/kunlanan.png"
+        alt=""
+        class="animate-fade-up pb-12 pt-10"
+        width="490"
+        height="442"
+        loading="lazy"
+      />
+   
+      <div class="flex flex-row justify-between p-2 w-4/5">
+        <div class="box animate-fade-right animate-once ">
+          <img src="assets/IMGsmall/kunlananLeft.png" alt="" />
+        </div>
+        <div class="box animate-fade-right animate-once ">
+          <img src="assets/IMGsmall/kunlananCenter.png" alt="" />
+        </div>
+        <div class="box animate-fade-right animate-once ">
+          <img src="assets/IMGsmall/kunlananRight.png" alt="" />
+        </div>
       </div>
     </div>
+    
+    
 
     <div class="text-center justify-center content-center">
       <br />
