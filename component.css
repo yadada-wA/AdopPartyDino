@@ -22,20 +22,7 @@ body {
     background-color: #fefefa;
     z-index: 2;
 }
-
-.header-line::after, .header-line::before {
-    position: absolute;
-    display: inline-block;
-    content: '';
-    width: 90px;
-    height: 1.05px;
-    background-color: rgb(0, 0, 0);
-    z-index: 1;
+.line{
+    z-index: -1;
 }
 
-.header-line::after {
-    right: 0;
-}
-.header-line::before {
-    left: 0;
-}
