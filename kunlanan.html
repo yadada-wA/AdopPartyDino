@@ -1,51 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Triceratops</title>
-    <link rel="stylesheet" href="component.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-<a href="index.html">
-    <div class="size-12 bg-blue-500 rounded-r-lg mt-4 absolute left-0">
-        <img src="https://cdn-icons-png.flaticon.com/512/3545/3545314.png" class="size-9 top-2 left-1 absolute ">
-    </div>
-</a>
-    <br>
-    <img src="assets/kunlanan.png" alt="" class="animate-fade-up animate-delay-[20ms]" width="490" height="442" loading="lazy">
-    <br>
-    <div class="grid grid-cols-3 gap-10 justify-center p-2">
-        <div class="box animate-fade-right animate-once animate-delay-[20ms] "><img src="assets/IMGsmall/kunlananLeft.png" alt=""></div>
-        <div class="box animate-fade-right animate-once animate-delay-[20ms] "><img src="assets/IMGsmall/kunlananCenter.png" alt=""></div>
-        <div class="box animate-fade-right animate-once animate-delay-[20ms]"><img src="assets/IMGsmall/kunlananRight.png" alt=""></div>
+    <link rel="stylesheet" href="component.css" />
+    <link rel="stylesheet" href="out/tailwind.css" />
+  </head>
+  <body>
+    <a href="index.html">
+      <div class="size-12 bg-blue-500 rounded-r-lg mt-4 absolute left-0">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3545/3545314.png"
+          class="size-9 top-2 left-1 absolute"
+        />
+      </div>
+    </a>
+    <br />
+    <div class="flex flex-col w-full justify-center items-center">
+      <img
+        src="assets/kunlanan.png"
+        alt=""
+        class="animate-fade-up pb-12 pt-10"
+        width="490"
+        height="442"
+        loading="lazy"
+      />
+
+      <div class="flex flex-row justify-between p-2 w-4/5">
+        <div class="box animate-fade-right animate-once">
+          <img src="assets/IMGsmall/kunlananLeft.png" alt="" />
+        </div>
+        <div class="box animate-fade-right animate-once">
+          <img src="assets/IMGsmall/kunlananCenter.png" alt="" />
+        </div>
+        <div class="box animate-fade-right animate-once">
+          <img src="assets/IMGsmall/kunlananRight.png" alt="" />
+        </div>
+      </div>
     </div>
 
     <div class="text-center justify-center content-center">
-    <br>
-    <div class="header-line">
-    <div class="header">
-    <h1 class="uppercase font-bold text-2xl text-center">Triceratops</h1>
-</div>
-</div>
+      <br />
+      <div class="header-line">
+        <div class="relative">
+          <div class="absolute w-full h-[1px] bg-black top-4 line"></div>
+          <div class="header z-20">
+            <h1 class="uppercase font-bold text-2xl text-center z-20">
+              Triceratops
+            </h1>
+          </div>
+        </div>
+      </div>
 
-    <a href="https://www.facebook.com/kunlanan.kunlanan.5?mibextid=ZbWKwL" target="_blank"><h2 class="text-sm">by kunlanan kunlanan</h2></a>
-    <br>
-    <p class="py-1">SB : 700 THB</p>
+      <a
+        href="https://www.facebook.com/kunlanan.kunlanan.5?mibextid=ZbWKwL"
+        target="_blank"
+        ><h2 class="text-sm">by kunlanan kunlanan</h2></a
+      >
+      <br />
+      <p class="py-1">SB : 700 THB</p>
     </div>
-    <div class="text-xs p-3 text-center whitespace-normal">
-    <p>
-        สกุลไดโนเสาร์กินพืชที่สูญพันธุ์แล้วที่ปรากฏครั้งแรกในช่วงปลาย Maastrichtian ในยุคครีเทเชียสตอนปลายประมาณ 68 ล้านปีก่อน 
-        ในปัจจุบันคืออเมริกาเหนือและสูญพันธุ์ในเหตุการณ์การสูญพันธุ์ยุคครีเทเชียส–พาลีโอจีนเมื่อ 66 ล้านปีก่อน
-    </p>
-    <br>
-    <p>
-        ไทรเซราทอปส์มีกระโหลกที่มีเขา 3 เขา แถบริมกระดูก และร่างกายขนาดใหญ่
-        <br>ที่เดินสี่ขา 
-        เป็นหนึ่งในไดโนเสาร์ที่ใหญ่ที่สุด ซึ่งมีความยาวถึง 9 เมตร
-    </p>
-</div>
-
-</body>
+    <div class="flex justify-center pb-[100px]">
+      <div class="text-xs p-6 text-center space-y-4 w-4/6">
+        <p class="text-sm font-semibold text-gray-800">
+          สกุลไดโนเสาร์กินพืชที่สูญพันธุ์แล้วที่ปรากฏครั้งแรกในช่วงปลาย
+          Maastrichtian ในยุคครีเทเชียสตอนปลายประมาณ 68 ล้านปีก่อน
+          ในปัจจุบันคืออเมริกาเหนือและสูญพันธุ์ในเหตุการณ์การสูญพันธุ์ยุคครีเทเชียส–พาลีโอจีนเมื่อ
+          66 ล้านปีก่อน
+        </p>
+        <p class="text-gray-700 leading-relaxed">
+          ไทรเซราทอปส์มีกระโหลกที่มีเขา 3 เขา แถบริมกระดูก และร่างกายขนาดใหญ่
+          เดินสี่ขา เป็นหนึ่งในไดโนเสาร์ที่ใหญ่ที่สุด ซึ่งมีความยาวถึง 9 เมตร
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
